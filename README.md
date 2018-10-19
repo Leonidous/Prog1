@@ -1,2 +1,1 @@
-# Prog1
-A simple program to find the frequency of words and phrases in text files.
+This program finds the most common expressions of length N across all input files. N will be the first command line argument, then a mode (“all” or “top”), followed by the names of all of the input files. If the mode is “all”, print all phrases, whether the top frequency or not. If the mode is “top”, then only the ones that are max frequency. In either mode, results are printed in alphabetical order by the phrase text.
